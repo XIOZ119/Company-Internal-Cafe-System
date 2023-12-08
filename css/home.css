@@ -1,0 +1,552 @@
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+@font-face {
+  font-family: 'nike';
+  src: url(../fonts/Futura\ Condensed\ Extra\ Bold.otf) format('truetype');
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.btn {
+  width: 130px;
+  padding: 10px;
+  border: 2px solid #333;
+  border-radius: 4px;
+  color: #333;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+  box-sizing: border-box;
+  display: block;
+  transition: .4s;
+}
+
+.mag {
+  margin-right: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+}
+
+.inner {
+  margin: 0 auto;
+  position: relative;
+}
+
+.pager {
+  position: relative;
+  text-align: center;
+  left: -20px;
+  top: -25px;
+  z-index: 1001;
+}
+
+.pager span {
+  width: 15px;
+  height: 15px;
+  background: gray;
+  border: 3px solid transparent;
+  margin: 0 15px;
+  border-radius: 50%;
+  text-indent: -9999em;
+  display: inline-block;
+}
+
+.pager span.cycle-pager-active {
+  background: none;
+  border: 3px solid green;
+  background-color: white;
+}
+
+.btn:hover {
+  color: #FFF;
+  background-color: #333;
+}
+
+.btn.btn--white {
+  font-weight: bold;
+  color: #FFF;
+  border: 2px solid #FFF;
+}
+
+.btn.btn--white:hover {
+  color: #FFF;
+  border: 2px solid #333;
+}
+
+.btn.btn--usedtrade {
+  position: relative;
+  font-weight: bold;
+  color: #333;
+  border: 2px solid #333;
+  top: 20px;
+  right: 130px;
+}
+
+.btn.btn--usedtrade:hover {
+  color: #FFF;
+  border: 2px solid #333;
+}
+
+.btn.btn--reverse {
+  font-weight: bold;
+  background-color: #333;
+  color: white;
+  position: relative;
+  top: -100px;
+}
+
+.btn.btn--reverse:hover {
+  font-weight: bold;
+  color: #333;
+  border: 2px solid #333;
+  background-color: white;
+}
+
+.btn.btn--jodan {
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+.btn.btn--jodan:hover {
+  font-weight: bold;
+  border: 2px solid black;
+  background-color: black;
+  color: white;
+}
+
+.bg-1 {
+  background-image: url("../image/latte.jpg");
+  background-size: 100% 100%;
+  /* Green */
+  height: 645px;
+  background-repeat: no-repeat;
+}
+
+.custom-pager {
+  float: left;
+  bottom: 1em;
+  z-index: 1000;
+  text-align: center;
+  width: 100%;
+}
+
+.centerImg {
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  /* width: max-content; */
+  width: 100%;
+  background-color: #f6f5ef;
+  align-content: space-around;
+}
+
+.collapse.in {
+  width: 900px;
+  height: 500px;
+  overflow-y: hidden;
+}
+
+.centerImg.collapse.in>div:nth-child(1) {
+  position: relative;
+  /* top: 800px; */
+  top: 450px;
+  z-index: 1000;
+}
+
+.centerImg.collapse.in>div:nth-child(3) {
+  position: relative;
+  z-index: 1000;
+  top: -210px;
+  left: 850px;
+}
+
+.prev,
+.next {
+  width: 42px;
+  height: 42px;
+  border: 2px solid black;
+  background-color: black;
+  border-radius: 50%;
+  color: #333;
+  opacity: .3;
+  cursor: pointer;
+  display: grid;
+  padding-top: 7px;
+  align-self: center;
+}
+
+.prev {
+  justify-self: end;
+}
+
+.centerImg>div:nth-child(1) {
+  display: inline-block;
+  display: grid;
+  text-align: center;
+}
+
+.centerImg>div:nth-child(2) {
+  background-color: #f6f5ef;
+  padding: auto 0;
+
+}
+
+.cycleimg {
+  width: 100%;
+  height: 100%;
+}
+
+.centerImg>div:nth-child(3) {
+  display: inline-block;
+  display: grid;
+}
+
+.bg-2-right {
+  background-color: #f6f5ef;
+}
+
+.center .prev {
+  position: relative;
+  z-index: 100;
+  left: 20vw;
+  bottom: 100px;
+}
+
+.center .next {
+  position: relative;
+  bottom: 100px;
+  z-index: 100;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: #fff;
+  color: black;
+  border: 2px solid black;
+}
+
+.bg-2-right {
+  background-color: #f6f5ef;
+  color: black;
+}
+
+.bg-3 {
+
+  background-image: url("../image/hand.jpg");
+  min-width: 1800px;
+
+}
+
+.bg-4 {
+  height: 500px;
+}
+
+.bg-5 {
+  height: 400px;
+  background-image: url("../image/season_product_bg.jpg");
+  min-width: 1080px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-6 {
+  background-image: url("../image/hand.jpg");
+  min-width: 1080px;
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.bg-7 {
+  background-image: url("../image/coffee.jpg");
+  min-width: 1080px;
+  width: 1000px;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-8 {
+  background-image: url("../image/find_store_bg.jpg");
+  height: 330px;
+}
+
+.container-fluid {
+  /* display: grid; */
+  align-content: center;
+}
+
+.notice {
+  width: 100%;
+  height: 580px;
+  display: grid;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.main-title {
+  position: absolute;
+  top: 300px;
+  left: 100px;
+}
+
+/* .img{
+  display: grid;
+  justify-content: center;
+} */
+.bg-5 .product {
+  position: relative;
+  top: 0%;
+  left: -5%;
+}
+
+.text-group {
+  animation: slide-right2left 2s;
+  position: relative;
+  top: 15%;
+  right: 22%;
+  display: flex;
+  float: right;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.favorite-text-group {
+  display: flex;
+  float: right;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-7 .medal {
+  width: 400px;
+  height: 400px;
+  perspective: 1200px;
+}
+
+.bg-7 .reverse_img {
+  display: flex;
+  width: 400px;
+  height: 400px;
+  /* top: 170px;
+  left: 700px; */
+}
+
+.bg-7 .reverse_reverse {
+  position: absolute;
+  top: 0px;
+}
+
+.bg-7 .medal .reverse_img,
+.bg-7 .medal .reverse_reverse {
+  backface-visibility: hidden;
+  transition: 1s;
+}
+
+.bg-7 .reverse_img {
+  transform: rotateY(0deg);
+}
+
+.bg-7 .medal:hover .reverse_img {
+  transform: rotateY(180deg);
+}
+
+.bg-7 .medal .reverse_reverse {
+  transform: rotateY(-180deg);
+}
+
+.bg-7 .medal:hover .reverse_reverse {
+  transform: rotateY(0deg);
+}
+
+/* googlemap(usedtrade) control*/
+.googlemap {
+  animation: slide_googlemap 2s;
+  position: relative;
+  top: -100px;
+  left: 0px;
+}
+
+/* googlemap(usedtrade) keyframes*/
+@keyframes slide_googlemap {
+  from {
+    left: -30%;
+    opacity: 0;
+  }
+
+  to {
+    left: 0px;
+    opacity: 1;
+  }
+}
+
+@keyframes disappear_googlemap {
+  from {
+    left: 0%;
+    opacity: 1;
+  }
+
+  to {
+    left: -30%;
+    opacity: 0;
+  }
+}
+
+/* usedbox control*/
+.usedtrade {
+
+  animation: slide_usedtrade 2s;
+  position: relative;
+  top: 50px;
+  left: -130px;
+}
+
+/* usedbox keyframes*/
+@keyframes slide_usedtrade {
+  from {
+    left: -30%;
+    opacity: 0;
+  }
+
+  to {
+    left: -130px;
+    opacity: 1;
+  }
+}
+
+@keyframes disappear_usedtrade {
+  from {
+    left: -130%;
+    opacity: 1;
+  }
+
+  to {
+    left: -30%;
+    opacity: 0;
+  }
+}
+
+.used-trade-text-group {
+
+  animation: slide-right2left2 2s;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 0px;
+  right: 100px;
+}
+
+/*used trade text keyframes */
+@keyframes slide-right2left2 {
+  from {
+    right: -500px;
+    opacity: 0;
+  }
+
+  to {
+    right: 100px;
+    opacity: 1;
+  }
+}
+
+@keyframes dis-right2left2 {
+  from {
+    right: 100px;
+    opacity: 1;
+  }
+
+  to {
+    right: -500px;
+    opacity: 0;
+  }
+}
+
+.bg-5 #jodan_animation {
+  animation: slide 2s;
+  position: relative;
+  top: 0%;
+  left: -5%;
+}
+
+/*조던 설명 keyframes */
+@keyframes slide-right2left {
+  from {
+    right: -10%;
+    opacity: 0;
+  }
+
+  to {
+    right: 22%;
+    opacity: 1;
+  }
+}
+
+@keyframes dis-right2left {
+  from {
+    right: -50%;
+    opacity: 1;
+  }
+
+  to {
+    right: -5%;
+    opacity: 0;
+  }
+}
+
+/* 조던 image keyframes */
+@keyframes slide {
+  from {
+    left: -50%;
+    opacity: 0;
+  }
+
+  to {
+    left: -5%;
+    opacity: 1;
+  }
+}
+
+@keyframes disappear {
+  from {
+    left: -5%;
+    opacity: 1;
+  }
+
+  to {
+    left: -50%;
+    opacity: 0;
+  }
+}
+
+.floating1 {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  top: -500px;
+  left: -400px;
+}
+
+.floating2 {
+  position: relative;
+  top: -200px;
+  left: -400px;
+}
+
+.floating3 {
+  position: relative;
+  top: -300px;
+  right: -300px;
+}

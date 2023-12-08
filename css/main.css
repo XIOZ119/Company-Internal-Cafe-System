@@ -4,7 +4,7 @@ html {
     position: fixed;
 }
 
-body {
+/* body {
     background-color: #F3EDD9;
     width: 100%;
     height: 100%;
@@ -18,7 +18,7 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 20px;
-}
+} */
 
 .header2 {
     height: 60px;
@@ -59,24 +59,38 @@ body {
 .menu-list,
 .order-list {
     background-color: white;
+
 }
 
 .menu-list {
     width: 70%;
+    padding: 13px 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.menu-row {
     display: flex;
     justify-content: space-between;
-    padding: 13px 20px;
+    background-color: white;
+    width: 99%;
+    height: 33%;
+
 }
 
 .menu-list-box {
-    display: block;
-    width: 17%;
-    height: 30%;
-    background-color: white;
+    display: inline-block;
+    width: 18%;
+    height: 90%;
     border: 5px solid #5735327f;
     border-radius: 2px;
-
 }
+
+.menu-list-box a {
+    text-decoration-line: none;
+    color: black;
+}
+
 
 .menu-img {
     display: flex;
@@ -85,7 +99,6 @@ body {
     width: 100%;
     height: 65%;
     background-color: #5735327f;
-
 }
 
 .menu-img img {
@@ -103,7 +116,91 @@ body {
     margin-top: 10px;
 }
 
+/* 주문 목록 부분 */
+
 .order-list {
     width: 30%;
     margin-left: 20px;
+    padding: 10px 20px;
+}
+
+.order-list span {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+}
+
+.order-detail {
+    height: 65%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.order-detail table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.order-detail th,
+.order-detail td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #5735327f;
+}
+
+.order-detail th {
+    background-color: #5735327f;
+}
+
+.total_price,
+.delete_all button {
+    background-color: #5735327f;
+    color: white;
+    border-radius: 5px;
+    justify-content: right;
+    align-items: center;
+    display: flex;
+    padding: 8px;
+}
+
+.delete_all {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.place-order {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5735327f;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.delete_all button {
+    border: none;
+    padding: 8px;
+    margin: 5px;
+    font: inherit;
+    cursor: pointer;
+}
+
+.place-order button {
+    border: none;
+    background: none;
+    padding: 8px;
+    margin: 5px;
+    font: inherit;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    color: black;
+    /* 마우스 호버 시 배경색 변경 */
 }
