@@ -5,3 +5,4 @@
 3. 이 시스템은 사용자의 음료 주문 프로세스를 간소화하여 업무 효율성과 만족도를 향상시킬 수 있다.
 
 ## Main 화면
+https://github.com/XIOZ119/Company-Internal-Cafe-System/assets/63907578/d001e8f9-bb95-4794-82f3-129fa9372769
