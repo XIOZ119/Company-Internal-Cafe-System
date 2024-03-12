@@ -9,7 +9,7 @@
 음료 화면과 음료 상세화면에서 cart에 넣었을 때, 메뉴와 갯수가 장바구니 화면에 보입니다. 
 
 ## 메뉴 상세정보 화면
-<img width="{80%}" src="{https://private-user-images.githubusercontent.com/63907578/312077190-8df5a4ab-8b84-4fc4-916d-bfe9c12ea722.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTAyNDgyMTMsIm5iZiI6MTcxMDI0NzkxMywicGF0aCI6Ii82MzkwNzU3OC8zMTIwNzcxOTAtOGRmNWE0YWItOGI4NC00ZmM0LTkxNmQtYmZlOWMxMmVhNzIyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMTIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzEyVDEyNTE1M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWRkZDZhY2VmYTg2NjQyNjc5OGQ5MmE2NDVlOWIzMzZmMGRlZjNjZTA5YjEzMWY4NDkxNjMxMTlmNGZmYTcwNGMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.HFIh-2uBPvq56zC48GCewaS5-EqxuiDCAC42opHzbeQ}"/>
+<img width="{80%}" src="{https://github.com/XIOZ119/Company-Internal-Cafe-System/assets/63907578/8df5a4ab-8b84-4fc4-916d-bfe9c12ea722}"/>
 
 ## 주문 목록 화면
 <img width="{80%}" src="{https://github.com/XIOZ119/Company-Internal-Cafe-System/assets/63907578/e497d757-5642-4cd3-a9db-328892a38276}"/>
