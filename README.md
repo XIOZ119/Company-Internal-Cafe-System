@@ -9,10 +9,10 @@
 음료 화면과 음료 상세화면에서 cart에 넣었을 때, 메뉴와 갯수가 장바구니 화면에 보입니다. 
 
 ## 메뉴 상세정보 화면
-<img width="80%" src="https://github.com/XIOZ119/Company-Internal-Cafe-System/assets/63907578/8df5a4ab-8b84-4fc4-916d-bfe9c12ea722"/>
+<img width="50%" src="https://github.com/XIOZ119/Company-Internal-Cafe-System/assets/63907578/8df5a4ab-8b84-4fc4-916d-bfe9c12ea722"/>
 
 ## 주문 목록 화면
-<img width="80%" src="https://github.com/XIOZ119/Company-Internal-Cafe-System/assets/63907578/e497d757-5642-4cd3-a9db-328892a38276"/>
+<img width="50%" src="https://github.com/XIOZ119/Company-Internal-Cafe-System/assets/63907578/e497d757-5642-4cd3-a9db-328892a38276"/>
 
 ## Mypage 화면
 <img width="80%" src="https://github.com/XIOZ119/Company-Internal-Cafe-System/assets/63907578/dd540834-5503-4565-a1c3-e2c51ba0019e"/>
