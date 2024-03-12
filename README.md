@@ -5,11 +5,11 @@
 3. 이 시스템은 사용자의 음료 주문 프로세스를 간소화하여 업무 효율성과 만족도를 향상시킬 수 있습니다.
 
 ## Main 주문 화면 및 장바구니 화면
-<img width="{80%}" src="https://github.com/XIOZ119/Company-Internal-Cafe-System/assets/63907578/2c313e57-f010-4e63-948d-e287410f5ac2"/>
+<img width="80%" src="https://github.com/XIOZ119/Company-Internal-Cafe-System/assets/63907578/2c313e57-f010-4e63-948d-e287410f5ac2"/>
 음료 화면과 음료 상세화면에서 cart에 넣었을 때, 메뉴와 갯수가 장바구니 화면에 보입니다. 
 
 ## 메뉴 상세정보 화면
-<img width="50%" src="https://github.com/XIOZ119/Company-Internal-Cafe-System/assets/63907578/8df5a4ab-8b84-4fc4-916d-bfe9c12ea722"/>
+<img width="80%" src="https://github.com/XIOZ119/Company-Internal-Cafe-System/assets/63907578/8df5a4ab-8b84-4fc4-916d-bfe9c12ea722"/>
 
 ## 주문 목록 화면
 <img width="50%" src="https://github.com/XIOZ119/Company-Internal-Cafe-System/assets/63907578/e497d757-5642-4cd3-a9db-328892a38276"/>
