@@ -6,7 +6,7 @@
 
 ## Main 주문 화면 및 장바구니 화면
 <img width="80%" src="https://github.com/XIOZ119/Company-Internal-Cafe-System/assets/63907578/2c313e57-f010-4e63-948d-e287410f5ac2"/>
-음료 화면과 음료 상세화면에서 cart에 넣었을 때, 메뉴와 갯수가 장바구니 화면에 보입니다. 
+<div>음료 화면과 음료 상세화면에서 cart에 넣었을 때, 메뉴와 갯수가 장바구니 화면에 보입니다. </div>
 
 ## 메뉴 상세정보 화면
 <img width="80%" src="https://github.com/XIOZ119/Company-Internal-Cafe-System/assets/63907578/8df5a4ab-8b84-4fc4-916d-bfe9c12ea722"/>
