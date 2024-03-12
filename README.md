@@ -18,3 +18,4 @@
 <img width="80%" src="https://github.com/XIOZ119/Company-Internal-Cafe-System/assets/63907578/dd540834-5503-4565-a1c3-e2c51ba0019e"/>
 
 ## 실행 영상
+<img width="80%" src="https://github.com/XIOZ119/Company-Internal-Cafe-System/assets/63907578/e9f0a018-879b-4a22-89f1-12483df7962d"/>
